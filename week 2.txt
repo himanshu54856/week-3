@@ -1,0 +1,30 @@
+#comment code in python by using "#" for single line and we use """   """ for multiple line of code.
+# variables like a container which store memory data types .
+a=1
+print(a)
+#one data type always convert into another data type in this programing language.
+#open a command line and type the word pythonfollowed by the path to your script file.
+#my_list=[1,2,3,4,5]
+  
+
+
+#complex number in mathematics contaning one real value and another imaginary value .  
+
+a="2+6J"
+print("a")
+  
+age=('25 to it')
+print("age")
+
+name=("Himanshu kumar")
+print(name)
+
+string=("Hello world")
+print(string[5:])
+
+is_student=input(x)
+if x==student:
+   print("true")
+else:
+   print("false")
+
