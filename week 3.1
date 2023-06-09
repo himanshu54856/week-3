@@ -1,0 +1,80 @@
+# def keywword is used to create a function
+for i in range(1,25):
+        if i %2!=0:
+             print(i,end=' ')
+#2 args and kwards are used when argument become a dynamic.
+def test4(*args):
+       return args
+test4(1,2,3,"hima",[123,321])
+
+
+def test5(**kwargs):
+       return kwargs 
+test5(a=[1,2,3],b="him",c=6.7)
+
+
+#3 iterators in python is the running of program in for and while loop.
+# there are two method in python are __iter__() and __next__(). 
+list=[2,4,6,8,10,12,14,16,18,2]
+print(list[0:6])
+
+
+# A generator is a function in python that return an iterator that produce a sequence of values when iterated over.
+""" yeild keyword used to create a generator function ."""
+def gener():
+    for i in range(10):
+                if(i%2==0):
+                     yield i
+    for i in gener():
+         print(i)
+
+
+'''for x in range(1,1000):
+       for y in range(2,x):
+              if x%y==0:
+                     break
+              else:
+                     print(x,sep=' ',end=' ')'''
+
+
+# fibonicci no
+n=0
+a=0
+b=1
+while(n<10):
+       a=b
+       b=n
+       n=a+b
+       print(n,end=' ')
+
+
+
+
+
+'''x="pwskills"
+b=int(x)
+print(list(b))'''
+
+
+
+
+num=int(input("enter the number"))
+temp=num
+rev=0
+while(num>0):
+       dig=num%10
+       rev=rev*10+dig
+       num=num//10
+       if(temp==rev):
+              print("is palindrome")
+       else:
+              print("not a palindrome") 
+
+        
+
+
+
+
+
+
+                         
